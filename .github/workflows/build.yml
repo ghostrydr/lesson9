@@ -12,7 +12,7 @@ jobs:
         with: 
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUBN_TOKEN }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - uses: docker/build-push-action@v6.18.0
         with:
           tags: ghcr.io/${{ github.repository }}

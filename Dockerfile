@@ -3,7 +3,7 @@ FROM node:20-alpine
 LABEL org.opencontainers.image.source=https://github.com/ghostrydr/lesson9
 
 ARG NPM_TOKEN
-ENV NODE_AUTH_TOKEN=${NPM_TOKEN}
+ENV NODE_AUTH_TOKEN=$NPM_TOKEN
 
 WORKDIR /app
 

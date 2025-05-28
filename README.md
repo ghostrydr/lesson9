@@ -1,6 +1,6 @@
 # GitHub Codespaces ♥️ React
 
-![deploy](https://github.com/ghostrydr/lesson9/actions/workflow/build.yml/badge.svg)
+![deploy](https://github.com/ghostrydr/lesson9/actions/workflows/build.yml/badge.svg)
 
 Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
 
